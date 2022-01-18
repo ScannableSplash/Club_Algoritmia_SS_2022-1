@@ -17,9 +17,10 @@ int main(){
     int s=0;
     
     for(int i=0; i<n; i++){
-        if(s<=v[i]) x++;
-        
-        s=s+v[i];
+        if(s<=v[i]){
+            x++;
+            s=s+v[i];
+        }
     }
     
     cout<<endl<<x;
