@@ -30,7 +30,6 @@ int main()
             z++;
             x=v[k];
             v[k]=ID[i];
-                
             
             for(int a=k-1; a>=0; a=a-2){
                 y=v[a];
