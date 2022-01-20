@@ -2,8 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main(){
+    
     int n, k, m, x, y, z=0, b;
     cin>>n>>k;
     cout<<endl;
