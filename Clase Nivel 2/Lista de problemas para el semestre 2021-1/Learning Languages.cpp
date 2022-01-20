@@ -19,7 +19,7 @@ int main(){
         cout<<endl;
     }
     
-    //*comparación perrona
+    //*añadir comparación perrona
     
     cout<<endl<<x;
     
