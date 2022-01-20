@@ -6,13 +6,13 @@ int main(){
     int n, m, k, x=0;
     cin>>n>>m;
     int matriz[n][m];
+    vector<int> v(n);
     
     for(int i=0; i<n; i++){
         
-        cin>>matriz[i][0];
-        k=matriz[i][0];
+        cin>>v[i];
         
-        for(int j=1; j<k; j++){
+        for(int j=0; j<v[i]; j++){
             cin>>matriz[i][j];
         }
         
