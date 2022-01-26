@@ -3,9 +3,9 @@ using namespace std;
 
 int main(){
 
-int x;
-cin >>x;
-cout<<pow(x,3)/2;
+  int x;
+  cin >>x;
+  cout<<pow(x,3)/2;
 
 return 0;
 }
