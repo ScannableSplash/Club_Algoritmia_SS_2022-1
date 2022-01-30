@@ -5,7 +5,7 @@ int main(){
     
     int x, n, a, b;
     cin>>n;
-    vector<float> v(n);
+    vector<double> v(n);
     vector<int> c(n);
     
     for(int i=0; i<n; i++){
@@ -42,8 +42,8 @@ int main(){
     }
     
     for(int i=0; i<n; i++){
-        if(c[i]==1) cout<<setprecision(2)<<fixed<<v[i]<<endl;
-        else cout<<setprecision(0)<<fixed<<v[i]<<endl;
+        if(c[i]==1) printf("%.2f \n", v[i]);
+        else printf("%.f \n", v[i]);
     }
     
 return 0;
