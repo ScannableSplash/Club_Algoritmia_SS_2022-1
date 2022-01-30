@@ -14,7 +14,7 @@ int main(){
     
     if(se==si){
         for(int i=0; i<se; i++){
-            if(ber[i]=!bir[i]){
+            if(ber[i]!=bir[i]){
                 cout<<"NO";
                 x++;
                 break;
