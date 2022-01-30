@@ -10,9 +10,11 @@ int main(){
     se=ber.length();
     si=bir.length();
     
+    reverse(bir.begin(), bir.end());
+    
     if(se==si){
         for(int i=0; i<se; i++){
-            if(ber[i]=!bir[se-i]){
+            if(ber[i]=!bir[i]){
                 cout<<"NO";
                 x++;
                 break;
@@ -23,7 +25,7 @@ int main(){
     else{
        cout<<"NO";
        x++;
-    } 
+    }
     
     if(x==0) cout<<"YES";
     
